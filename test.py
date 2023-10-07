@@ -2,20 +2,21 @@
 # calculating using python: 
 example_string = 'doesn\'t'
 mult = 4 * 'asdf'
-print(mult[-1:])
-
-for i in range(9):
-    print(i)
 
 
-def fib(n):
-    "docstring"
-    # write fibonacci series up to n
-    a, b = 0, 1
-    while a<n:
-        print(a)
-        a, b = b, a+b
-    print()
 
 
-fib(15)
+def fizzbuzz():
+    for i in range(1, 100):
+        if i%3 == 0 and i%5 == 0: 
+            print('fizzbuzz')
+        elif i%3 == 0:
+            print('fizz')
+        elif i%5 == 0: 
+            print('buzz')
+        else:
+            print(i)
+            
+
+
+fizzbuzz()
