@@ -17,6 +17,6 @@ def fizzbuzz():
         else:
             print(i)
             
-
-
-fizzbuzz()
+words = ['cat', 'mouse', 'dog', 'cow']
+for word in words:
+    print(word, len(word))
