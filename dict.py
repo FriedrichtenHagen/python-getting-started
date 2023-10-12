@@ -9,4 +9,15 @@ testingobj = {
     'bool': True,
 }
 
-print(dictionary == testingobj)
+# for i in dictionary.values():
+#     print(i)
+
+# for k in dictionary.keys():
+#     print(k)
+
+# for n in dictionary.items():
+#     print(n)
+
+spam = {'color': 'red', 'age': 42}
+for k, v in spam.items():
+    print('Key: ' + k + ' Value: ' + str(v))
